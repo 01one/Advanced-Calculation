@@ -173,7 +173,7 @@ percentage=0
 
 while 1:
 	fps=speed_options[selected_option]
-	pygame.display.set_caption("Actural Frame Rate: "+str(round(clock.get_fps(),2)))
+	pygame.display.set_caption("Actual Frame Rate: "+str(round(clock.get_fps(),2)))
 	clock.tick(fps)
 	for event in pygame.event.get():
 		if event.type==QUIT:

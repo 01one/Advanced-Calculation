@@ -34,7 +34,7 @@ cpdef result(int x):
 #Goldbach’s conjecture
 #Any even number greater than 2 can be written as a sum of two primes.
 
-x=eval(input("Enter an even number grater than two: "))
+x=eval(input("Enter an even number greater than two: "))
 if x%2==0:
 	prime=[]
 	for i in range(2,x+1):
